@@ -119,10 +119,16 @@ path.link.selected {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
   font-size: x-large;
   border-radius: 3em;
   margin: 1em;
+  color: lightgreen;
+}
+
+#help_txt ul {
+    list-style-type: none;
+    text-align: center;
 }
